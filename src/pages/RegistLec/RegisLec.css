@@ -1,0 +1,714 @@
+.jfpt-inner,
+.jrectangle-div {
+  position: absolute;
+  top: 106.7px;
+  left: -60px;
+  background-color: var(--color-darkorange);
+  width: 370.3px;
+  height: 67.5px;
+  transform: rotate(-30deg);
+  transform-origin: 0 0;
+}
+.jrectangle-div {
+  top: 90.3px;
+  left: 117.3px;
+  width: 229.9px;
+  height: 9.4px;
+}
+.jexam-schedule1,
+.jfpt-university1 {
+  position: absolute;
+  top: 18px;
+  left: 306px;
+  display: inline-block;
+  width: 349px;
+  height: 25px;
+}
+.jfpt-university1 {
+  top: 0;
+  left: 0;
+  font-size: var(--font-size-17xl);
+  font-family: var(--font-inika);
+  width: 296px;
+  height: 38px;
+}
+.jframe {
+  position: absolute;
+  top: 15px;
+  left: 12px;
+  width: 655px;
+  height: 43px;
+  overflow: hidden;
+}
+.javt-icon,
+.jfpt1 {
+  position: relative;
+}
+.jfpt1 {
+  width: 667px;
+  height: 75px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.javt-icon {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  z-index: 0;
+}
+.javt-icon:hover {
+  box-shadow: 0 4px 4px #bebebe;
+}
+.jstudent {
+  margin: 0;
+}
+.jstudent-name {
+  position: absolute;
+  margin: 0 !important;
+  top: 15.5px;
+  right: 61px;
+  font-size: var(--font-size-xs);
+  font-family: var(--font-inter);
+  color: var(--color-white);
+  text-align: left;
+  z-index: 1;
+}
+.jstudent-name:active,
+.jstudent-name:hover {
+  color: var(--color-silver-100);
+}
+.javatar1,
+.jnavbar1 {
+  overflow: hidden;
+  display: flex;
+}
+.javatar1 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-3xs);
+  background-color: transparent;
+  width: 201px;
+  height: 50px;
+  flex-shrink: 0;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  box-sizing: border-box;
+  position: relative;
+  gap: var(--gap-3xs);
+}
+.jnavbar1 {
+  align-self: stretch;
+  background-color: var(--color-tomato-100);
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--padding-3xs) var(--padding-13xl);
+}
+.jprofile-image-icon1 {
+  position: relative;
+  border-radius: 50%;
+  width: 92px;
+  height: 92px;
+  object-fit: cover;
+}
+.jprofile-image-icon1:hover {
+  box-shadow: 0 4px 4px #bebebe;
+}
+.jname2,
+.jtittle1 {
+  position: relative;
+  font-size: var(--font-size-5xl);
+  line-height: 100%;
+  font-family: var(--font-quicksand);
+  color: var(--color-white);
+  text-align: left;
+}
+.jname2:hover {
+  color: var(--color-silver-200);
+}
+.jname2:active {
+  color: var(--color-silver-100);
+}
+.jtittle1 {
+  font-size: var(--font-size-sm);
+  font-family: var(--font-inter);
+  color: var(--color-gray-100);
+}
+.jtittle1:hover {
+  color: var(--color-silver-200);
+}
+.jtittle1:active {
+  color: var(--color-silver-100);
+}
+.jname-group,
+.juser-profile1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.juser-profile1 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  width: 205.5px;
+  gap: var(--gap-xl);
+}
+.jexams3 {
+  position: relative;
+  font-size: var(--font-size-base);
+  font-family: var(--font-poppins);
+  color: var(--color-lightgray-100);
+  text-align: left;
+}
+.jexams-child,
+.jexams2,
+.jicon-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.jicon-container {
+  justify-content: center;
+  gap: var(--gap-base);
+}
+.jexams-child,
+.jexams2 {
+  justify-content: flex-start;
+}
+.jexams2 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-xs) var(--padding-5xs) var(--padding-xs)
+    var(--padding-xs);
+  background-color: transparent;
+  width: 233px;
+  flex-direction: column;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+.jexams2:hover {
+  background-color: var(--color-gray-500);
+}
+.jexams2:active {
+  background-color: var(--color-gray-300);
+}
+.jhomeoutline-icon {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.jprofile4 {
+  position: relative;
+  font-size: var(--font-size-base);
+  line-height: 100%;
+  font-family: var(--font-inter);
+  color: var(--color-lightgray-100);
+  text-align: left;
+}
+.jhomeoutline-parent,
+.jprofile3 {
+  display: flex;
+  justify-content: flex-start;
+}
+.jhomeoutline-parent {
+  flex-direction: row;
+  align-items: center;
+  gap: var(--gap-base);
+}
+.jprofile3 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-xs) var(--padding-51xl) var(--padding-xs)
+    var(--padding-xs);
+  background-color: transparent;
+  width: 233px;
+  flex-direction: column;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+.jprofile3:hover {
+  background-color: var(--color-gray-500);
+}
+.jprofile3:active {
+  background-color: var(--color-gray-300);
+}
+.jregister1,
+.jupward-trend-icon {
+  position: relative;
+  flex-shrink: 0;
+}
+.jupward-trend-icon {
+  width: 24.8px;
+  height: 26.2px;
+  overflow: hidden;
+  z-index: 0;
+}
+.jregister1 {
+  font-size: var(--font-size-base);
+  font-family: var(--font-poppins);
+  color: var(--color-white);
+  text-align: left;
+  display: inline-block;
+  width: 101.5px;
+  height: 22px;
+  z-index: 1;
+}
+.jframe-item {
+  position: absolute;
+  margin: 0 !important;
+  top: -0.1px;
+  left: 215.1px;
+  border-right: 2px solid var(--color-mediumseagreen);
+  box-sizing: border-box;
+  width: 2px;
+  height: 22px;
+  z-index: 2;
+}
+.jupward-trend-parent {
+  width: 105px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  position: relative;
+  gap: var(--gap-base);
+}
+.jregister,
+.jsalary {
+  cursor: pointer;
+  border: 0;
+  width: 237px;
+  box-sizing: border-box;
+}
+.jregister {
+  padding: var(--padding-xs) 0 var(--padding-xs) var(--padding-xs);
+  background-color: var(--color-gray-300);
+  border-radius: var(--br-5xs);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.jregister:hover {
+  background-color: var(--color-gray-400);
+}
+.jregister:active,
+.jsalary:hover {
+  background-color: var(--color-gray-500);
+}
+.jsalary {
+  padding: var(--padding-xs) var(--padding-5xs) var(--padding-xs)
+    var(--padding-xs);
+  background-color: transparent;
+}
+.jsalary:active {
+  background-color: var(--color-gray-300);
+}
+.jexams-group,
+.joptions1,
+.jsalary {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.jexams-group {
+  width: 233px;
+  gap: var(--gap-3xs);
+}
+.joptions1 {
+  width: 234px;
+  height: 406px;
+}
+.jlogout4 {
+  position: absolute;
+  top: -4px;
+  left: 0;
+  font-size: var(--font-size-mini);
+  line-height: 100%;
+  display: inline-block;
+  font-family: var(--font-quicksand);
+  color: var(--color-white);
+  text-align: center;
+  width: 52px;
+  height: 16px;
+}
+.jlogout-container {
+  position: relative;
+  width: 52px;
+  height: 18px;
+}
+.jlogout3,
+.jmenu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.jlogout3 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-3xs);
+  background-color: var(--color-tomato-100);
+  border-radius: var(--br-81xl);
+  width: 237px;
+  height: 47px;
+  overflow: hidden;
+  flex-shrink: 0;
+  justify-content: flex-end;
+  box-sizing: border-box;
+}
+.jlogout3:hover {
+  background-color: var(--color-tomato-300);
+}
+.jlogout3:active {
+  background-color: var(--color-tomato-200);
+}
+.jmenu {
+  border-radius: var(--br-base);
+  background-color: var(--color-gray-200);
+  justify-content: center;
+  padding: 12.09674072265625px 19.927291870117188px 12.09674072265625px
+    19.92724609375px;
+  gap: var(--gap-9xs);
+}
+.jdate,
+.jhour,
+.jregister2,
+.jslot {
+  position: relative;
+  flex-shrink: 0;
+}
+.jregister2 {
+  font-size: var(--font-size-8xl);
+  display: flex;
+  font-family: var(--font-poppins);
+  color: var(--color-darkslategray);
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  width: 213px;
+  height: 46px;
+}
+.jdate,
+.jhour,
+.jslot {
+  display: inline-block;
+  width: 195px;
+}
+.jhour,
+.jslot {
+  width: 94px;
+}
+.jhour {
+  width: 309px;
+}
+.jname3 {
+  width: 882px;
+  height: 60px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 0 0 120px;
+  box-sizing: border-box;
+  gap: 37px;
+  text-align: center;
+  font-size: var(--font-size-xl);
+  color: var(--color-darkslategray-100);
+  font-family: var(--font-inter);
+}
+.jframe-inner {
+  position: relative;
+  background-color: var(--color-black);
+  width: 800px;
+  height: 1px;
+}
+.jdiv,
+.jdiv1,
+.jframe-child1,
+.jh30 {
+  position: relative;
+  flex-shrink: 0;
+}
+.jframe-child1 {
+  width: 17px;
+  height: 20px;
+  overflow: hidden;
+}
+.jdiv,
+.jdiv1,
+.jh30 {
+  line-height: 49px;
+  display: flex;
+  align-items: center;
+  height: 49px;
+}
+.jdiv {
+  font-size: var(--font-size-lgi);
+  text-align: right;
+  width: 107px;
+}
+.jdiv1,
+.jh30 {
+  width: 159px;
+}
+.jh30 {
+  width: 38px;
+}
+.jgroup-child {
+  position: absolute;
+  top: 4.6px;
+  left: 4.1px;
+  border-radius: 50%;
+  width: 11px;
+  height: 17.8px;
+}
+.jchoose,
+.jgroup-item {
+  position: absolute;
+  top: 0;
+}
+.jgroup-item {
+  left: 0;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-white);
+  border: 1px solid var(--color-orangered);
+  box-sizing: border-box;
+  width: 74px;
+  height: 27px;
+}
+.jchoose {
+  left: 15px;
+  font-size: var(--font-size-sm);
+  line-height: 26px;
+  display: inline-block;
+  font-family: var(--font-dm-sans);
+  color: var(--color-orangered);
+  text-align: center;
+  width: 58px;
+  height: 18px;
+}
+.jvector-icon {
+  position: absolute;
+  height: 40.74%;
+  width: 13.51%;
+  top: 29.63%;
+  right: 79.73%;
+  bottom: 29.63%;
+  left: 6.76%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.jellipse-parent {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: relative;
+  width: 74px;
+  height: 27px;
+}
+.jop1,
+.jrectangle-parent {
+  height: 58px;
+  display: flex;
+  align-items: center;
+}
+.jrectangle-parent {
+  width: 878px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 0 var(--padding-31xl) 0 var(--padding-30xl);
+  box-sizing: border-box;
+}
+.jop1 {
+  flex-direction: column;
+  justify-content: center;
+}
+.jjoin-today {
+  position: relative;
+  font-size: var(--font-size-mid);
+  letter-spacing: -0.01em;
+  font-weight: 500;
+  font-family: var(--font-montserrat);
+  color: var(--color-white);
+  text-align: center;
+}
+.jbody,
+.jbtn-submit,
+.jrow {
+  display: flex;
+  align-items: center;
+}
+.jbtn-submit {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-mini) var(--padding-45xl);
+  background-color: var(--color-coral);
+  border-radius: var(--br-7xs);
+  overflow: hidden;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.jbtn-submit:hover {
+  background-color: var(--color-tomato-600);
+}
+.jbtn-submit:active {
+  background-color: var(--color-tomato-100);
+}
+.jbody,
+.jrow {
+  gap: var(--gap-xl);
+}
+.jbody {
+  border-radius: var(--br-xl);
+  background-color: var(--color-white);
+  box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.5);
+  height: 700px;
+  overflow: hidden;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-3xs) var(--padding-32xl);
+  box-sizing: border-box;
+}
+.jrow {
+  width: 1512px;
+  flex-direction: row;
+  justify-content: center;
+  font-size: var(--font-size-base);
+  color: var(--color-black);
+  font-family: var(--font-roboto);
+}
+.jreport-item {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: var(--color-tomato-100);
+  position: absolute;
+  top: 60px;
+  left: -53px;
+  border-radius: var(--br-81xl);
+  width: 210px;
+  height: 46px;
+}
+.jreport-item:hover {
+  background-color: var(--color-tomato-300);
+}
+.jreport-item:active {
+  background-color: var(--color-tomato-400);
+}
+.jreport3 {
+  position: absolute;
+  top: 62px;
+  left: 0;
+  display: inline-block;
+  width: 251px;
+  height: 43px;
+}
+.jreport3:active,
+.jreport3:hover {
+  color: var(--color-silver-100);
+}
+.jimage-1-icon1 {
+  position: relative;
+  width: 57px;
+  height: 57px;
+  object-fit: cover;
+}
+.jimage-1-container {
+  position: absolute;
+  top: 0;
+  left: 140px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xs);
+}
+.jreport2 {
+  position: absolute;
+  top: 0;
+  right: 76px;
+  width: 251px;
+  height: 105px;
+}
+.jlogofpt-icon {
+  position: absolute;
+  top: 31px;
+  left: 82px;
+  width: 274px;
+  height: 104px;
+  object-fit: cover;
+}
+.jbot,
+.jregislec {
+  position: relative;
+  background-color: var(--color-white);
+  overflow: hidden;
+}
+.jbot {
+  align-self: stretch;
+  height: 135px;
+  flex-shrink: 0;
+  font-size: var(--font-size-13xl);
+  font-family: var(--font-inika);
+}
+.jregislec {
+  width: 100%;
+  height: 1003.2px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-white);
+  font-family: var(--font-inter);
+}
+.bodyregisLec{
+  overflow: auto; /* hoặc 'scroll' */
+}
+/* Tùy chỉnh cho tất cả các thanh cuộn trong trang */
+::-webkit-scrollbar {
+  width: 10px; /* Độ rộng của thanh cuộn */
+}
+
+/* Xử lý cho phần trượt cuộn */
+::-webkit-scrollbar-thumb {
+  background: #F25F4C; /* Màu của trượt cuộn */
+  border-radius: 5px; /* Làm tròn góc */
+}
+
+/* Thay đổi màu khi hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #D94A43; /* Màu khi hover, một tông màu đậm hơn */
+}
+
+/* Tùy chỉnh cho phần nền của thanh cuộn */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; /* Màu nền của thanh cuộn */
+}
+@media screen and (max-width: 1200px) {
+  .jbody {
+    width: 900px;
+  }
+  .jregislec {
+    width: 1200px;
+  }
+}
+@media screen and (max-width: 960px) {
+  .jregislec {
+    width: 960px;
+  }
+}

@@ -1,0 +1,729 @@
+.qfpt-child,
+.qfpt-item {
+  position: absolute;
+  top: 106.7px;
+  left: -60px;
+  background-color: #ff8906;
+  width: 370.3px;
+  height: 67.5px;
+  transform: rotate(-30deg);
+  transform-origin: 0 0;
+}
+.qfpt-item {
+  top: 90.3px;
+  left: 117.3px;
+  width: 229.9px;
+  height: 9.4px;
+}
+.qexam-schedule,
+.qfpt-university {
+  position: absolute;
+  top: 18px;
+  left: 306px;
+  display: inline-block;
+  width: 349px;
+  height: 25px;
+}
+.qfpt-university {
+  top: 0;
+  left: 0;
+  font-size: 36px;
+  font-family: Inika;
+  width: 296px;
+  height: 38px;
+}
+.qframe {
+  position: absolute;
+  top: 15px;
+  left: 12px;
+  width: 655px;
+  height: 43px;
+  overflow: hidden;
+}
+.qavt-icon,
+.qfpt {
+  position: relative;
+}
+.qfpt {
+  width: 667px;
+  height: 75px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.qavt-icon {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  z-index: 0;
+}
+.qavt-icon:hover {
+  box-shadow: 0 4px 4px #bebebe;
+}
+.qstudent {
+  margin: 0;
+}
+.qstudent-name {
+  position: absolute;
+  margin: 0 !important;
+  top: 15.5px;
+  right: 61px;
+  font-size: 12px;
+  font-family: Inter;
+  color: #fff;
+  text-align: left;
+  z-index: 1;
+}
+.qstudent-name:active,
+.qstudent-name:hover {
+  color: #bebebe;
+}
+.qavatar,
+.qnavbar {
+  overflow: hidden;
+  display: flex;
+}
+.qavatar {
+  cursor: pointer;
+  border: 0;
+  padding: 10px;
+  background-color: transparent;
+  width: 201px;
+  height: 50px;
+  flex-shrink: 0;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  box-sizing: border-box;
+  position: relative;
+  gap: 10px;
+}
+.qnavbar {
+  align-self: stretch;
+  background-color: #f25f4c;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 32px;
+}
+.qprofile-image-icon {
+  position: relative;
+  border-radius: 50%;
+  width: 92px;
+  height: 92px;
+  object-fit: cover;
+}
+.qprofile-image-icon:hover {
+  box-shadow: 0 4px 4px #bebebe;
+}
+.qname1,
+.qtittle {
+  position: relative;
+  font-size: 24px;
+  line-height: 100%;
+  font-family: Quicksand;
+  color: #fff;
+  text-align: left;
+}
+.qname1:hover {
+  color: rgba(190, 190, 190, 0.9);
+}
+.qname1:active {
+  color: #bebebe;
+}
+.qtittle {
+  font-size: 14px;
+  font-family: Inter;
+  color: #7f7f7f;
+}
+.qtittle:hover {
+  color: rgba(190, 190, 190, 0.9);
+}
+.qtittle:active {
+  color: #bebebe;
+}
+.qname-parent,
+.quser-profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 16px;
+}
+.quser-profile {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  width: 205.5px;
+  gap: 20px;
+}
+.qexams1,
+.qtemplate-icon {
+  position: relative;
+  flex-shrink: 0;
+}
+.qtemplate-icon {
+  width: 25px;
+  height: 23px;
+  overflow: hidden;
+}
+.qexams1 {
+  font-size: 16px;
+  font-family: Poppins;
+  color: #ccc;
+  text-align: left;
+  display: inline-block;
+  width: 101.5px;
+  height: 22px;
+}
+.qtemplate-parent {
+  width: 105px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 16px;
+}
+.qframe-child {
+  width: 78px;
+}
+.qexams,
+.qframe-parent {
+  display: flex;
+  justify-content: flex-start;
+}
+.qframe-parent {
+  flex-direction: row;
+  align-items: center;
+  gap: 38px;
+}
+.qexams {
+  cursor: pointer;
+  border: 0;
+  padding: 12px 0 12px 12px;
+  background-color: transparent;
+  border-radius: 8px;
+  width: 233px;
+  flex-direction: column;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+.qexams:hover {
+  background-color: rgba(3, 3, 3, 0.6);
+}
+.qexams:active {
+  background-color: #030303;
+}
+.qupward-trend-icon {
+  position: relative;
+  width: 24.8px;
+  height: 26.2px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.qcreate-exams1 {
+  position: relative;
+  font-size: 16px;
+  line-height: 100%;
+  font-family: Inter;
+  color: #ccc;
+  text-align: left;
+}
+.qcreate-exams,
+.qupward-trend-parent {
+  display: flex;
+  justify-content: flex-start;
+}
+.qupward-trend-parent {
+  flex-direction: row;
+  align-items: center;
+  gap: 16px;
+}
+.qcreate-exams {
+  cursor: pointer;
+  border: 0;
+  padding: 12px 70px 12px 12px;
+  background-color: transparent;
+  width: 233px;
+  flex-direction: column;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+.qcreate-exams:hover {
+  background-color: rgba(3, 3, 3, 0.6);
+}
+.qcreate-exams:active {
+  background-color: #030303;
+}
+.qcreate-data,
+.qtemplate-icon1 {
+  position: relative;
+  flex-shrink: 0;
+}
+.qtemplate-icon1 {
+  width: 25px;
+  height: 23px;
+  overflow: hidden;
+  z-index: 0;
+}
+.qcreate-data {
+  font-size: 16px;
+  font-family: Poppins;
+  color: #fff;
+  text-align: left;
+  display: inline-block;
+  width: 101.5px;
+  height: 22px;
+  z-index: 1;
+}
+.qframe-item {
+  position: absolute;
+  margin: 0 !important;
+  top: -0.1px;
+  left: 215.1px;
+  border-right: 2px solid #00b578;
+  box-sizing: border-box;
+  width: 2px;
+  height: 22px;
+  z-index: 2;
+}
+.qtemplate-group {
+  width: 105px;
+  position: relative;
+  gap: 16px;
+}
+.qcreatedata-inner,
+.qcreatedata1,
+.qtemplate-group {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.qcreatedata1 {
+  cursor: pointer;
+  border: 0;
+  padding: 12px 0 12px 12px;
+  background-color: #030303;
+  border-radius: 8px;
+  width: 233px;
+  flex-direction: column;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+.qcreatedata1:active,
+.qcreatedata1:hover {
+  background-color: rgba(3, 3, 3, 0.5);
+}
+.quedit-icon {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.qedit,
+.qmenu1 {
+  width: 234px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.qedit {
+  cursor: pointer;
+  border: 0;
+  padding: 12px 70px 12px 12px;
+  background-color: transparent;
+  box-sizing: border-box;
+}
+.qedit:hover {
+  background-color: rgba(3, 3, 3, 0.6);
+}
+.qedit:active {
+  background-color: #030303;
+}
+.qmenu1 {
+  height: 412px;
+  gap: 10px;
+}
+.qlogout-txt {
+  line-break: anywhere;
+  width: 100%;
+}
+.qlogout1 {
+  position: relative;
+  font-size: 15px;
+  line-height: 100%;
+  display: flex;
+  font-family: Quicksand;
+  color: #fff;
+  text-align: center;
+  align-items: center;
+  width: 52px;
+  height: 27px;
+  flex-shrink: 0;
+}
+.qlogout,
+.qlogout-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.qlogout {
+  cursor: pointer;
+  border: 0;
+  padding: 10px;
+  background-color: #f25f4c;
+  border-radius: 100px;
+  width: 237px;
+  height: 47px;
+  overflow: hidden;
+  flex-shrink: 0;
+  flex-direction: column;
+  justify-content: flex-end;
+  box-sizing: border-box;
+}
+.qlogout:hover {
+  background-color: rgba(242, 95, 75, 0.66);
+}
+.qlogout:active {
+  background-color: rgba(242, 95, 75, 0.69);
+  flex-direction: row;
+}
+.qcreate-data1,
+.qmenu {
+  justify-content: center;
+}
+.qmenu {
+  border-radius: 16px;
+  background-color: #181818;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 12.09674072265625px 19.927291870117188px 12.09674072265625px
+    19.92724609375px;
+  gap: 4px;
+}
+.qcreate-data1 {
+  position: relative;
+  font-size: 27px;
+  font-family: Poppins;
+  color: #353535;
+  width: 213px;
+  height: 46px;
+  flex-shrink: 0;
+}
+.qcreate-data1,
+.qstudent-wrapper,
+.qstudent2 {
+  display: flex;
+  align-items: center;
+}
+.qstudent2 {
+  position: relative;
+  line-height: 49px;
+  justify-content: center;
+  width: 101.5px;
+  height: 22px;
+  flex-shrink: 0;
+}
+.qstudent-wrapper {
+  width: 689px;
+  overflow: hidden;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.qbrowser {
+  position: relative;
+  font-size: 15px;
+  line-height: 49px;
+  font-family: Roboto;
+  color: #fff;
+  text-align: left;
+}
+.qbrowser-wrapper {
+  cursor: pointer;
+  border: 2px solid #f25f4c;
+  padding: 10px;
+  background-color: #ff8906;
+  position: absolute;
+  top: 8px;
+  left: 315.1px;
+  border-radius: 5px;
+  box-sizing: border-box;
+  height: 26px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.qbrowser-wrapper:hover {
+  background-color: rgba(247, 147, 34, 0.6);
+}
+.qbrowser-wrapper:active {
+  background-color: #f79322;
+}
+.qframe-wrapper {
+  position: relative;
+  border-radius: 3px;
+  border: 1px solid #000;
+  box-sizing: border-box;
+  width: 400px;
+  height: 41px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.quexport-parent {
+  cursor: pointer;
+  border: 2px solid #f25f4c;
+  padding: 10px;
+  background-color: #ff8906;
+  border-radius: 5px;
+  box-sizing: border-box;
+  width: 100px;
+  height: 38px;
+  justify-content: center;
+  gap: 10px;
+}
+.quexport-parent:hover {
+  background-color: rgba(247, 147, 34, 0.6);
+}
+.quexport-parent:active {
+  background-color: #f79322;
+}
+.qfidownload-parent,
+.qframe-group,
+.quexport-parent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.qfidownload-parent {
+  cursor: pointer;
+  border: 2px solid #f25f4c;
+  padding: 10px;
+  background-color: #ff8906;
+  border-radius: 5px;
+  box-sizing: border-box;
+  width: 100px;
+  height: 38px;
+  justify-content: center;
+  gap: 2px;
+}
+.qfidownload-parent:hover {
+  background-color: rgba(247, 147, 34, 0.6);
+}
+.qfidownload-parent:active {
+  background-color: #f79322;
+}
+.qframe-group {
+  width: 691px;
+  overflow: hidden;
+  justify-content: flex-start;
+  gap: 40px;
+}
+.qbrowser-container,
+.qframe-div {
+  box-sizing: border-box;
+  display: flex;
+}
+.qbrowser-container {
+  cursor: pointer;
+  border: 2px solid #f25f4c;
+  padding: 10px;
+  background-color: #ff8906;
+  border-radius: 5px;
+  height: 26px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.qbrowser-container:hover {
+  background-color: rgba(253, 179, 95, 0.6);
+}
+.qbrowser-container:active {
+  background-color: #fdb35f;
+}
+.qframe-div {
+  border-radius: 3px;
+  border: 1px solid #000;
+  width: 400px;
+  height: 41px;
+  overflow: hidden;
+  flex-shrink: 0;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-end;
+  padding: 7px 9.92724609375px;
+}
+.qbody,
+.qlecturer,
+.qrow {
+  display: flex;
+  align-items: center;
+}
+.qlecturer {
+  overflow: hidden;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 1px;
+}
+.qbody,
+.qrow {
+  gap: 20px;
+}
+.qbody {
+  border-radius: 20px;
+  background-color: #fff;
+  box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.5);
+  height: 490px;
+  overflow: hidden;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 10px 51px;
+  box-sizing: border-box;
+}
+.qrow {
+  /* align-self: stretch; */
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+  color: #000;
+  font-family: Roboto;
+}
+.qreport-child {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: #f25f4c;
+  position: absolute;
+  top: 60px;
+  left: -53px;
+  border-radius: 100px;
+  width: 210px;
+  height: 46px;
+}
+.qreport-child:hover {
+  background-color: rgba(242, 95, 75, 0.66);
+}
+.qreport-child:active {
+  background-color: rgba(242, 95, 76, 0.69);
+}
+.qreport1 {
+  position: absolute;
+  top: 61.8px;
+  left: 0;
+  display: inline-block;
+  width: 103px;
+  height: 43px;
+}
+.qreport1:active,
+.qreport1:hover {
+  color: #bebebe;
+}
+.qimage-1-icon {
+  position: relative;
+  width: 57px;
+  height: 57px;
+  object-fit: cover;
+}
+.qimage-1-wrapper {
+  position: absolute;
+  top: 0;
+  left: 140px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 10px;
+}
+.qreport {
+  position: absolute;
+  top: -0.2px;
+  right: 76px;
+  width: 251px;
+  height: 105px;
+}
+.qlogofpt-icon {
+  position: absolute;
+  top: 31px;
+  left: 82px;
+  width: 274px;
+  height: 104px;
+  object-fit: cover;
+}
+.qbot,
+.qcreatedata {
+  position: relative;
+  background-color: #fff;
+  overflow: hidden;
+}
+.qbot {
+  align-self: stretch;
+  height: 135px;
+  flex-shrink: 0;
+  font-size: 32px;
+  font-family: Inika;
+}
+.qcreatedata {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 20px;
+  text-align: left;
+  font-size: 20px;
+  color: #fff;
+  font-family: Inter;
+}
+.qframe-div {
+  display: flex;
+  align-items: center; /* CÄƒn giá»¯a cÃ¡c pháº§n tá»­ theo chiá»u dá»c */
+  justify-content: space-between; /* CÄƒn cÃ¡c pháº§n tá»­ theo chiá»u ngang */
+}
+.qfile-name {
+  /* Äiá»u chá»‰nh CSS cho tÃªn file náº¿u cáº§n */
+  margin-right: 0px; /* ThÃªm khoáº£ng cÃ¡ch giá»¯a nÃºt vÃ  tÃªn file náº¿u cáº§n */
+  color: black;
+}
+
+.qedit{
+  text-decoration: none;
+}
+.qedit:hover{
+  text-decoration: none;
+}
+.qcreatedata1{
+  text-decoration: none;
+}
+.qcreatedata1:hover{
+  text-decoration: none;
+}.qcreate-exams{
+  text-decoration: none;
+}
+.qcreate-exams:hover{
+  text-decoration: none;
+}.qexams{
+  text-decoration: none;
+}
+.qexams:hover{
+  text-decoration: none;
+}
+
+
+@media screen and (max-width: 1200px) {
+  .qbody {
+    width: 900px;
+  }
+  .qcreatedata {
+    width: 1200px;
+  }
+}
+@media screen and (max-width: 960px) {
+  .qcreatedata {
+    width: 960px;
+  }
+}

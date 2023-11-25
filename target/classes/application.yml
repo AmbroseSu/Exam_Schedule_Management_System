@@ -1,0 +1,26 @@
+server:
+  port: 8888
+spring:
+
+
+
+  datasource:
+    #   url: jdbc:postgresql://localhost:5432/ESMS2
+    #   username: postgres
+    #   password: 12345
+    url: jdbc:sqlserver://TANTUYETTT;databaseName=ESMS_v3;encrypt=true;trustServerCertificate=true;
+    username: sa
+    password: 12345
+#    url: jdbc:sqlserver://localhost\MYMY:1433;database=ESMS_v2;encrypt=true;trustServerCertificate=true;loginTimeout=30;
+#    username: sa
+#    password: 1
+
+
+  mvc:
+    view:
+      prefix: /templates/
+      suffix: .html
+  servlet:
+    multipart:
+      max-file-size: 10MB
+      max-request-size: 10MB

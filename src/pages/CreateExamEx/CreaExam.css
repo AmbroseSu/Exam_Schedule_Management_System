@@ -1,0 +1,787 @@
+.creafpt-child,
+.creafpt-item {
+  position: absolute;
+  top: 106.7px;
+  left: -60px;
+  background-color: #ff8906;
+  width: 370.3px;
+  height: 67.5px;
+  transform: rotate(-30deg);
+  transform-origin: 0 0;
+}
+.creafpt-item {
+  top: 90.3px;
+  left: 117.3px;
+  width: 229.9px;
+  height: 9.4px;
+}
+.creaexam-schedule,
+.creafpt-university {
+  position: absolute;
+  top: 18px;
+  left: 306px;
+  display: inline-block;
+  width: 349px;
+  height: 25px;
+}
+.creafpt-university {
+  top: 0;
+  left: 0;
+  font-size: 36px;
+  font-family: Inika;
+  width: 296px;
+  height: 38px;
+}
+.creaframe {
+  position: absolute;
+  top: 15px;
+  left: 12px;
+  width: 655px;
+  height: 43px;
+  overflow: hidden;
+}
+.creaavt-icon,
+.creafpt {
+  position: relative;
+}
+.creafpt {
+  width: 667px;
+  height: 75px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.creaavt-icon {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  z-index: 0;
+}
+.creaavt-icon:hover {
+  border: 1px solid rgba(190, 190, 190, 0.6);
+  box-sizing: border-box;
+}
+.crealecturer {
+  margin: 0;
+}
+.creastudent-name {
+  position: absolute;
+  margin: 0 !important;
+  top: 15.5px;
+  right: 58px;
+  font-size: 12px;
+  font-family: Inter;
+  color: #fff;
+  text-align: left;
+  z-index: 1;
+}
+.creastudent-name:active,
+.creastudent-name:hover {
+  color: #bebebe;
+}
+.creaavatar,
+.creanavbar {
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.creaavatar {
+  cursor: pointer;
+  border: 0;
+  padding: 10px;
+  background-color: transparent;
+  width: 201px;
+  height: 50px;
+  flex-shrink: 0;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  position: relative;
+  gap: 30px;
+}
+.creanavbar {
+  align-self: stretch;
+  background-color: #f25f4c;
+  justify-content: space-between;
+  padding: 10px 32px;
+}
+.creaprofile-image-icon {
+  position: relative;
+  border-radius: 50%;
+  width: 92px;
+  height: 92px;
+  object-fit: cover;
+}
+.creaprofile-image-icon:hover {
+  box-shadow: 0 4px 4px #bebebe;
+}
+.creaname1,
+.creatittle {
+  position: relative;
+  font-size: 24px;
+  line-height: 100%;
+  font-family: Quicksand;
+  color: #fff;
+  text-align: left;
+}
+.creaname1:active,
+.creaname1:hover {
+  color: #bebebe;
+}
+.creatittle {
+  font-size: 14px;
+  font-family: Inter;
+  color: #7f7f7f;
+}
+.creatittle:hover {
+  color: rgba(190, 190, 190, 0.9);
+}
+.creatittle:active {
+  color: #bebebe;
+}
+.creaname-parent,
+.creauser-profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 16px;
+}
+.creauser-profile {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  width: 205.5px;
+  gap: 20px;
+}
+.creaexams1,
+.createmplate-icon {
+  position: relative;
+  flex-shrink: 0;
+}
+.createmplate-icon {
+  width: 25px;
+  height: 23px;
+  overflow: hidden;
+}
+.creaexams1 {
+  font-size: 16px;
+  font-family: Poppins;
+  color: #ccc;
+  text-align: left;
+  display: inline-block;
+  width: 101.5px;
+  height: 22px;
+}
+.createmplate-parent {
+  width: 105px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 16px;
+}
+.creaframe-child {
+  width: 78px;
+}
+.creaexams,
+.creaframe-parent {
+  display: flex;
+  justify-content: flex-start;
+}
+.creaframe-parent {
+  flex-direction: row;
+  align-items: center;
+  gap: 38px;
+}
+.creaexams {
+  cursor: pointer;
+  border: 0;
+  padding: 12px 0 12px 12px;
+  background-color: #181818;
+  border-radius: 8px;
+  width: 233px;
+  flex-direction: column;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+.creaexams:hover {
+  background-color: rgba(3, 3, 3, 0.6);
+}
+.creaexams:active {
+  background-color: #030303;
+}
+.creacreate-exams,
+.createmplate-icon1 {
+  position: relative;
+  flex-shrink: 0;
+}
+.createmplate-icon1 {
+  width: 25px;
+  height: 23px;
+  overflow: hidden;
+  z-index: 0;
+}
+.creacreate-exams {
+  font-size: 16px;
+  font-family: Poppins;
+  color: #fff;
+  text-align: left;
+  display: inline-block;
+  width: 115px;
+  height: 22px;
+  z-index: 1;
+}
+.creaframe-item {
+  position: absolute;
+  margin: 0 !important;
+  top: -0.1px;
+  left: 215.1px;
+  border-right: 2px solid #00b578;
+  box-sizing: border-box;
+  width: 2px;
+  height: 22px;
+  z-index: 2;
+}
+.createmplate-group {
+  width: 105px;
+  flex-direction: row;
+  align-items: center;
+  position: relative;
+  gap: 16px;
+}
+.creacreateexams,
+.creacreateexams-inner,
+.createmplate-group {
+  display: flex;
+  justify-content: flex-start;
+}
+.creacreateexams-inner {
+  height: 26px;
+  flex-direction: row;
+  align-items: center;
+}
+.creacreateexams {
+  cursor: pointer;
+  border: 0;
+  padding: 12px 0 12px 12px;
+  background-color: #030303;
+  border-radius: 8px;
+  width: 233px;
+  flex-direction: column;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+.creacreateexams:active,
+.creacreateexams:hover {
+  background-color: rgba(3, 3, 3, 0.5);
+}
+.creaupward-trend-icon {
+  position: relative;
+  width: 22.9px;
+  height: 26.2px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.creacreate-data1 {
+  position: relative;
+  font-size: 16px;
+  font-family: Poppins;
+  color: #ccc;
+  text-align: left;
+}
+.creacreate-data,
+.creaupward-trend-parent {
+  display: flex;
+  justify-content: flex-start;
+}
+.creaupward-trend-parent {
+  flex-direction: row;
+  align-items: center;
+  gap: 16px;
+}
+.creacreate-data {
+  cursor: pointer;
+  border: 0;
+  padding: 12px 70px 12px 12px;
+  background-color: transparent;
+  width: 234px;
+  flex-direction: column;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+.creacreate-data:hover {
+  background-color: rgba(3, 3, 3, 0.6);
+}
+.creacreate-data:active {
+  background-color: #030303;
+}
+.creauedit-icon {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.creaedit1 {
+  position: relative;
+  font-size: 16px;
+  line-height: 100%;
+  font-family: Inter;
+  color: #ccc;
+  text-align: left;
+}
+.creamenu1 {
+  width: 234px;
+  height: 454px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 10px;
+}
+.crealogout1 {
+  position: absolute;
+  top: -4px;
+  left: 0;
+  font-size: 15px;
+  line-height: 100%;
+  display: inline-block;
+  font-family: Quicksand;
+  color: #fff;
+  text-align: center;
+  width: 52px;
+  height: 16px;
+}
+.crealogout-wrapper {
+  position: relative;
+  width: 52px;
+  height: 18px;
+}
+.crealogout,
+.creamenu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+}
+.crealogout {
+  cursor: pointer;
+  border: 0;
+  padding: 10px;
+  background-color: #f25f4c;
+  border-radius: 100px;
+  width: 237px;
+  height: 47px;
+  overflow: hidden;
+  flex-shrink: 0;
+  justify-content: flex-end;
+}
+.crealogout:hover {
+  background-color: rgba(242, 95, 75, 0.66);
+}
+.crealogout:active {
+  background-color: rgba(242, 95, 75, 0.69);
+}
+.creamenu {
+  align-self: stretch;
+  border-radius: 16px;
+  background-color: #181818;
+  width: 300px;
+  justify-content: center;
+  padding: 12.09674072265625px 19.927291870117188px 12.09674072265625px
+    19.92724609375px;
+  gap: 4px;
+}
+
+
+.crease173049-wrapper {
+  top: 33px;
+  left: 4.5px;
+  border-radius: 10px;
+  box-shadow: 0 0 6px #000;
+  border: 1px solid #fff;
+  box-sizing: border-box;
+  height: 49px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 34px;
+}
+.creacourse1 {
+  top: -14px;
+  left: 9.5px;
+  line-height: 49px;
+  display: inline-block;
+  height: 47px;
+}
+.creacourse,
+.creasave {
+  position: relative;
+}
+.creacourse {
+  width: 881px;
+  height: 87px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.creasave {
+  font-size: 24px;
+  line-height: 100%;
+  font-family: Quicksand;
+  color: #fff;
+  text-align: left;
+}
+.creabtn-save {
+  cursor: pointer;
+  border: 1px solid #f25f4c;
+  padding: 11px 27px;
+  background-color: #f25f4c;
+  border-radius: 10px;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 10px;
+}
+.creabtn-save:hover {
+  background-color: rgba(255, 137, 6, 0.6);
+}
+.creabtn-save:active {
+  background-color: #ff8906;
+}
+.creabody,
+.creabtn-save,
+.crearow {
+  display: flex;
+  align-items: center;
+}
+.creabody {
+  border-radius: 20px;
+  background-color: #fff;
+  box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.5);
+  width: 974px;
+  height: 664px;
+  overflow: hidden;
+  flex-shrink: 0;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 10px 51px;
+  box-sizing: border-box;
+  gap: 15px;
+}
+.crearow {
+  flex: 1;
+  width: 1316px;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20px;
+  color: #000;
+  font-family: Roboto;
+}
+.creareport-child {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: #f25f4c;
+  position: absolute;
+  top: 60px;
+  left: -53px;
+  border-radius: 100px;
+  width: 210px;
+  height: 46px;
+}
+.creareport-child:hover {
+  background-color: rgba(242, 95, 75, 0.66);
+}
+.creareport-child:active {
+  background-color: rgba(242, 95, 75, 0.69);
+}
+.creareport1 {
+  position: absolute;
+  top: 62px;
+  left: 0;
+  display: inline-block;
+  width: 251px;
+  height: 43px;
+}
+.creareport1:active,
+.creareport1:hover {
+  color: #bebebe;
+}
+.creaimage-1-icon {
+  position: relative;
+  width: 57px;
+  height: 57px;
+  object-fit: cover;
+}
+.creaimage-1-wrapper {
+  position: absolute;
+  top: 0;
+  left: 140px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 10px;
+}
+.creareport {
+  position: absolute;
+  top: 0;
+  right: 76px;
+  width: 251px;
+  height: 105px;
+}
+.crealogofpt-icon {
+  position: absolute;
+  top: 31px;
+  left: 82px;
+  width: 274px;
+  height: 104px;
+  object-fit: cover;
+}
+.creabot,
+.creacreaexam {
+  position: relative;
+  background-color: #fff;
+  overflow: hidden;
+}
+.creabot {
+  align-self: stretch;
+  height: 135px;
+  flex-shrink: 0;
+  font-size: 32px;
+  font-family: Inika;
+}
+.creacreaexam {
+  width: 100%;
+  height: 982px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 20px;
+  text-align: left;
+  font-size: 20px;
+  color: #fff;
+  font-family: Inter;
+}
+.creainput-style {
+  border: none;
+  box-shadow: none;
+  outline: none;
+  width: 100%; /* Đảm bảo input chiếm toàn bộ chiều rộng của div bên ngoài */
+  padding: 15px; /* Thêm padding nếu cần để căn chỉnh với div bên ngoài */
+  /* Thêm các styles khác của bạn ở đây */
+   position: absolute;
+  
+  left: 5px; /* Điều chỉnh giá trị này để căn chỉnh label theo chiều ngang */
+  background: #fff; /* Màu nền giống với div bên ngoài hoặc màu nền của body */
+  padding: 1 5px; 
+  position: relative;
+  
+}
+.creanotification {
+  /* Các thuộc tính khác giữ nguyên */
+  position: fixed; /* Đặt thông báo cố định trên màn hình */
+  top: 20px; /* Khoảng cách từ đỉnh trang */
+  left: 50%; /* Đặt ở giữa theo chiều ngang */
+  transform: translateX(-50%); /* Điều chỉnh để căn giữa chính xác */
+  z-index: 1050; /* Đảm bảo thông báo nằm trên cùng của các phần tử khác */
+}
+.creanotification {
+  /* Các thuộc tính khác giữ nguyên */
+  top: 70px; /* Điều chỉnh này phụ thuộc vào chiều cao của navbar */
+}
+.creanotification {
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  text-align: center;
+  font-size: 1rem;
+  transition: all 0.3s ease-in-out;
+}
+
+.creanotification.success {
+  color: #155724;
+  background-color: #d4edda;
+  border-color: #c3e6cb;
+}
+
+.creanotification.error {
+  color: #721c24;
+  background-color: #f8d7da;
+  border-color: #f5c6cb;
+}
+.creanotification {
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 4px;
+  text-align: center;
+  font-size: 1rem;
+  transition: all 0.3s ease-in-out;
+}
+
+.creanotification.success {
+  color: #ffffff; /* Green text */
+  background-color: #dff0d8; /* Light green background */
+  border: 1px solid #c3e6cb; /* Green border */
+}
+
+.creanotification.error {
+  color: #ffffff; /* Red text */
+  background-color: #f8d7da; /* Light red background */
+  border: 1px solid #f5c6cb; /* Red border */
+}
+
+/* Style the form and its elements */
+.creaexam-form {
+  max-width: 500px;
+  margin: 40px auto;
+  padding: 30px;
+  background: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.creaform-group {
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.creaform-group label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 600;
+  color: #555;
+}
+
+.creainput-style {
+  width: 100%;
+  padding: 12px 15px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+  transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.creainput-style:focus {
+  border-color: #66afe9;
+  box-shadow: 0 0 8px rgba(102, 175, 233, 0.6);
+  outline: none;
+}
+
+/* Style the save button */
+.creabtn-save {
+  display: inline-block; /* Change to inline-block */
+  padding: 10px 25px; /* Adjust padding */
+  border: none;
+  background-color: #5cb85c; /* Keep the original green color */
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s, transform 0.2s;
+  margin-top: 10px; /* Add some margin to the top */
+  text-align: center; /* Center the text */
+}
+
+.creabtn-save:hover {
+  background-color: #449d44; /* A darker green for hover */
+  transform: translateY(-2px); /* Slight lift on hover */
+}
+
+/* Center the button inside the form */
+.creaexam-form {
+  text-align: center; /* Center-align the button */
+}
+
+/* Notification styles */
+.creanotification {
+  padding: 15px;
+  color: white;
+  text-align: center;
+  border-radius: 5px;
+  margin-bottom: 30px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.creanotification.success {
+  background-color: #4caf50;
+}
+
+.creanotification.error {
+  background-color: #f44336;
+}
+
+/* Additional global styles for the body */
+.creabody {
+  padding: 20px;
+  background-color: #f5f5f5; /* A light grey background */
+  border-radius: 10px;
+  margin: 20px 0;
+}
+
+/* Style the form and its elements */
+.creaexam-form {
+  width: calc(100% - 60px); /* Full width minus padding */
+  margin: 20px auto; /* Keep the form centered */
+  padding: 30px; /* Add more padding inside */
+  background: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* You might need to adjust the width of the .row or its container to ensure it has enough space */
+.crearow {
+  max-width: 100%; /* Adjust this as necessary */
+  padding: 0; /* Adjust this as necessary */
+  /* Other styles */
+}
+
+/* Ensure the outer container of the form (which might be .body or another class) has no limiting width */
+.creabody {
+   /* Full width */
+  padding: 20px; /* Consistent padding */
+  background-color: #f5f5f5; /* Or any other color */
+  border-radius: 10px;
+  /* Other styles */
+}
+.creacreate-data{
+  text-decoration: none;
+}
+.creacreate-data:hover{
+  text-decoration: none;
+}
+.creacreateexams{
+  text-decoration: none;
+}
+.creacreateexams:hover{
+  text-decoration: none;
+}
+.creaexams{
+  text-decoration: none;
+}
+.creaexams:hover{
+  text-decoration: none;
+}
+
+
+
+
+
+@media screen and (max-width: 1200px) {
+  .creabody {
+    width: 900px;
+  }
+  .creacreaexam {
+    width: 1200px;
+  }
+}
+@media screen and (max-width: 960px) {
+  .creacreaexam {
+    width: 960px;
+  }
+}
