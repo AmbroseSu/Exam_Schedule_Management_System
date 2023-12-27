@@ -8,7 +8,7 @@ spring:
     #   url: jdbc:postgresql://localhost:5432/ESMS2
     #   username: postgres
     #   password: 12345
-    url: jdbc:sqlserver://TANTUYETTT;databaseName=ESMS_v3;encrypt=true;trustServerCertificate=true;
+    url: jdbc:sqlserver://AMBROSE;databaseName=ESMS_v3;encrypt=true;trustServerCertificate=true;
     username: sa
     password: 12345
 #    url: jdbc:sqlserver://localhost\MYMY:1433;database=ESMS_v2;encrypt=true;trustServerCertificate=true;loginTimeout=30;
