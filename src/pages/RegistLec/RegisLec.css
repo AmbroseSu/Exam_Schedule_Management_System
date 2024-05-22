@@ -383,6 +383,7 @@
 .jslot {
   position: relative;
   flex-shrink: 0;
+  padding-left: 0px;
 }
 .jregister2 {
   font-size: var(--font-size-8xl);
@@ -417,7 +418,7 @@
   flex-direction: row;
   align-items: center;
   justify-content: flex-start;
-  padding: 0 0 0 120px;
+  padding: 0 0 0 115px;
   box-sizing: border-box;
   gap: 37px;
   text-align: center;
